@@ -45,17 +45,17 @@ public class FundamentalsApplication {
 			releaseRepository.save(release);
 			ticketRepository.save(new Ticket("Sort Feature", "Add the ability to sort tickers by severity", "OPEN",application2, release ));
 
-			release = new Release("2020-06-29", "Q2 Release containing high priority enhancements");
-			releaseRepository.save(release);
-			ticketRepository.save(new Ticket("Search Feature", "Add the ability to search by invoice date", "IN PROGRESS",application4, release ));
+			Release release1 = new Release("2020-06-29", "Q2 Release containing high priority enhancements");
+			releaseRepository.save(release1);
+			ticketRepository.save(new Ticket("Search Feature", "Add the ability to search by invoice date", "IN PROGRESS",application4, release1 ));
 
-			release = new Release("2020-09-21", "Q3 Release containing bugs");
-			releaseRepository.save(release);
-			ticketRepository.save(new Ticket("Audit", "Add the ability to audit by year", "CLOSED",application5, release ));
+			Release release2 = new Release("2020-09-21", "Q3 Release containing bugs");
+			releaseRepository.save(release2);
+			ticketRepository.save(new Ticket("Audit", "Add the ability to audit by year", "CLOSED",application5, release2 ));
 
-			release = new Release("2020-12-05", "Q4 Release containing enhancements");
-			releaseRepository.save(release);
-			ticketRepository.save(new Ticket("Booking Feature", "Add the ability to book tickets online", "OPEN",application3, release ));
+			Release release3 = new Release("2020-12-05", "Q4 Release containing enhancements");
+			releaseRepository.save(release3);
+			ticketRepository.save(new Ticket("Booking Feature", "Add the ability to book tickets online", "OPEN",application3, release3 ));
 
 
 
