@@ -59,13 +59,13 @@ public class Application {
         this.owner = owner;
     }
 
-    @Override
-    public String toString() {
-        return "Application{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", owner=" + owner +
-                ", description='" + description + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Application{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", owner=" + owner +
+//                ", description='" + description + '\'' +
+//                '}';
+//    }
 }

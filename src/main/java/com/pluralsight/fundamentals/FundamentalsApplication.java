@@ -40,7 +40,6 @@ public class FundamentalsApplication {
 			Application application5 = new Application("Audits", "An application used for auditing purposes", "Tiffany Stewart");
 			appRepository.save(application5);
 
-
 			Release release = new Release("2020-03-32", "Q1 Release containing high priority bugs");
 			releaseRepository.save(release);
 			ticketRepository.save(new Ticket("Sort Feature", "Add the ability to sort tickers by severity", "OPEN",application2, release ));
